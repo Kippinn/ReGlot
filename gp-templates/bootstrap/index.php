@@ -2,7 +2,7 @@
 gp_title(__('Welcome'));
 gp_tmpl_header();
 ?>
-<div class="hero-unit">
+<div class="jumbotron">
     <h1>Welcome</h1>
     <p>
         You can browse translations

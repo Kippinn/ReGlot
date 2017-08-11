@@ -165,7 +165,7 @@ $i = 0;
                 <th class="checkbox"><?php if ($can_approve && $kind != 'u') : ?><input type="checkbox" /><?php
                 else: echo '&nbsp;';
                 endif;
-                ?></th>
+                ?>&mdash;</th>
                 <th><?php /* Translators: Priority */ _e('Prio'); ?></th>
                 <th class="original"><?php _e('Original string'); ?></th>
                 <th class="translation"><?php _e('Translation'); ?></th>

@@ -80,8 +80,8 @@ function gp_title( $title = null ) {
 function gp_breadcrumb( $breadcrumb = null, $args = array() ) {
 	$defaults = array(
 		/* translators: separates links in the navigation breadcrumb */
-		'separator' => '<span class="divider">/</span>',
-		'breadcrumb-template' => '<ul class="breadcrumb">'. gp_app_name() .'{separator}{breadcrumb}</ul>',
+		'separator' => ' <span class="divider">/</span> ',
+		'breadcrumb-template' => '<ol class="breadcrumb">'. gp_app_name() .'{separator}{breadcrumb}</ol>',
 	);
 	$args = array_merge( $defaults, $args );
 	if ( !is_null( $breadcrumb ) ) {
@@ -154,13 +154,13 @@ function gp_pagination( $page, $per_page, $objects ) {
 	$pages = ceil( $objects / $per_page );
 	if ( $page > $pages ) return '';
 	if ( $page > 1 )
-		$prev = gp_link_get( add_query_arg( array( 'page' => $page - 1 ) ), '&larr;', array('class' => 'previous') );
+		$prev = gp_link_get( add_query_arg( array( 'page' => $page - 1 ) ), '&laquo;', array('class' => 'previous') );
 	else
-		$prev = '<li class="previous disabled">&larr;</li>';
+		$prev = '<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>';
 	if ( $page < $pages )
-		$next = gp_link_get( add_query_arg( array( 'page' => $page + 1)), '&rarr;', array('class' => 'next') );
+		$next = gp_link_get( add_query_arg( array( 'page' => $page + 1)), '&raquo;', array('class' => 'next') );
 	else
-		$next = '<li class="next disabled">&rarr;</li>';
+		$next = '<li class="disabled"><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>';
 	$current = '<li class="active"><a href="#">'.$page.'</a></li>';
 	if ( $page > 1 ) {
 		$prev_pages = array();
@@ -181,8 +181,9 @@ function gp_pagination( $page, $per_page, $objects ) {
 	if ( $prev_dots ) $first = gp_link_get( add_query_arg( array( 'page' => 1 ) ), 1 );
 	if ( $next_dots ) $last = gp_link_get( add_query_arg( array( 'page' => $pages ) ), $pages );
  	$html = <<<HTML
+    <nav aria-label="Page navigation">
 	<div class="pagination pagination-right">
-            <ul>
+         <ul class="pagination">
 		<li>$prev</li>
 		<li>$first</li>
 		$prev_dots
@@ -192,8 +193,9 @@ function gp_pagination( $page, $per_page, $objects ) {
 		$next_dots
 		<li>$last</li>
 		<li>$next</li>
-            </ul>
-	</div>
+        </ul>
+        </div>
+    </nav>
 HTML;
 	return apply_filters( 'gp_pagination', $html, $page, $per_page, $objects );
 }

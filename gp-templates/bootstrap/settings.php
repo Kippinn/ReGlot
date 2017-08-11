@@ -12,7 +12,7 @@ gp_tmpl_header();
         <div class="control-group">
             <label class="control-label" for="settings[default_format]"><?php _e('Default Format'); ?></label>
             <div class="controls">
-                <?php echo gp_select_format('settings[default_format]', array('class' => 'input-xxlarge'), $settings['default_format']); ?>
+                <?php echo gp_select_format('settings[default_format]', array('class' => 'form-control'), $settings['default_format']); ?>
             </div>
         </div>
         <ul class="nav nav-tabs">

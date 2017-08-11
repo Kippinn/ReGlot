@@ -103,7 +103,7 @@ function load_textdomain( $domain, $mofile ) {
 function load_default_textdomain() {
 	$locale = get_locale();
 
-	$mofile = GP_LANG_PATH . "/$locale.mo";
+	$mofile = "../languages/$locale.mo";
 
 	load_textdomain('default', $mofile);
 }
@@ -122,3 +122,4 @@ function get_translations_for_domain( $domain ) {
 	$empty = new Translations;
 	return isset($l10n[$domain])? $l10n[$domain] : $empty;
 }
+

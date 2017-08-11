@@ -7,7 +7,7 @@
  */
 
 define('GP_INSTALLING', true);
-define('GP_DEBUG', true);
+define('GP_DEBUG', false);
 
 require_once('gp-load.php');
 require_once('gp-settings.php');

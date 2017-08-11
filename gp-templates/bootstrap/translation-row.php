@@ -44,7 +44,7 @@ $can_approve = GP::$user->can_approve($row_translation_set);
 	<td class="original">
 		<?php echo prepare_original( esc_translation( $t->singular ) ); ?>
 		<?php if ( $t->context ): ?>
-		<span class="context bubble" title="<?php printf( __('Context: %s'), esc_html($t->context) ); ?>"><?php echo esc_html($t->context); ?></span>
+		<span class="context bubble" title="<?php printf( __('Context: %s'), esc_html($t->context) ); ?>"></span>
 		<?php endif; ?>
 	</td>
 	<td class="translation foreign-text">

@@ -1,0 +1,1098 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Re-Glot\n"
+"POT-Creation-Date: 2016-10-18 16:05+0200\n"
+"PO-Revision-Date: 2017-08-11 01:22+0200\n"
+"Language-Team: Kube17 <kube17@free.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ReGlot-master/gp-templates\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__;_e;esc_attr_e;esc_html_e;_x;"
+"esc_attr_x;esc_html_x;_n;_n_noop\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bootstrap/404.php:2
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: bootstrap/404.php:9
+msgid "The resource you are looking for could not be found"
+msgstr "La ressource que vous recherchez est introuvable"
+
+#: bootstrap/by-translation.php:2 bootstrap/by-translation.php:3
+#: bootstrap/by-translation.php:8 bootstrap/header.php:281
+#: bootstrap/projects-by-translation.php:31 bootstrap/translations.php:12
+#: bootstrap/translations.php:19 bootstrap/translations.php:26
+#: bootstrap/users.php:43
+msgid "Translations"
+msgstr "Traductions"
+
+#: bootstrap/by-translation.php:10
+msgid "No translations were found!"
+msgstr "Aucune traduction n'a été trouvée !"
+
+#: bootstrap/by-translation.php:17 bootstrap/by-translation.php:26
+#: bootstrap/by-translation.php:35
+msgid "Showing by Locale"
+msgstr "Afficher par pays"
+
+#: bootstrap/by-translation.php:19 bootstrap/by-translation.php:28
+#: bootstrap/by-translation.php:37
+msgid "Show by Slug"
+msgstr "Afficher par Slug"
+
+#: bootstrap/by-translation.php:21 bootstrap/by-translation.php:30
+#: bootstrap/by-translation.php:39
+msgid "Show by Both"
+msgstr "Afficher pour les deux"
+
+#: bootstrap/by-translation.php:45
+msgid "Show Your Own"
+msgstr "Afficher les votres"
+
+#: bootstrap/by-translation.php:71
+msgid "view"
+msgstr "Visualiser"
+
+#: bootstrap/footer.php:7
+msgid ""
+"Powered by <a href=\"http://www.reglot.org\" title=\"Social Translating"
+"\"><b>Re&sdot;Glot</b></a>"
+msgstr ""
+"Propulsé par <a href=\"http://www.reglot.org\" title=\"Social Translating"
+"\"><b>Re&sdot;Glot</b></a>"
+
+#: bootstrap/header.php:280 bootstrap/project-new.php:7
+#: bootstrap/projects.php:2 bootstrap/projects.php:3 bootstrap/projects.php:8
+msgid "Projects"
+msgstr "Projets"
+
+#: bootstrap/header.php:284 bootstrap/tools.php:2
+msgid "Tools"
+msgstr "Outils"
+
+#: bootstrap/header.php:290
+msgid "No Tools"
+msgstr "Aucun outil"
+
+#: bootstrap/header.php:312 bootstrap/settings.php:2
+msgid "Settings"
+msgstr "Paramètres"
+
+#: bootstrap/header.php:314
+msgid "Profile"
+msgstr "Profil"
+
+#: bootstrap/header.php:315 bootstrap/translations.php:33 bootstrap/users.php:3
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: bootstrap/header.php:316
+msgid "Log out"
+msgstr "Déconnection"
+
+#: bootstrap/header.php:321
+msgid "Register"
+msgstr "Inscription"
+
+#: bootstrap/header.php:323
+msgid "Log in"
+msgstr "Connection"
+
+#: bootstrap/helper-functions.php:3
+msgid "New line"
+msgstr "Nouvelle ligne"
+
+#: bootstrap/helper-functions.php:4
+msgid "Tab character"
+msgstr "Tabulation"
+
+#: bootstrap/helper-functions.php:19
+#, php-format
+msgid "<strong>Warning:</strong> %s"
+msgstr "<strong>Attention:</strong> %s"
+
+#: bootstrap/helper-functions.php:22
+msgid "Discard"
+msgstr "Abandonner"
+
+#: bootstrap/helper-functions.php:30
+msgid "Copy from original"
+msgstr "Copier depuis l'original"
+
+#: bootstrap/helper-functions.php:31
+msgid "Translation from Google"
+msgstr "Traduire avec Google"
+
+#: bootstrap/helper-functions.php:35
+#, php-format
+msgid "You <a href=\"%s\">have to log in</a> to edit this translation."
+msgstr ""
+"Merci de vous <a href=\"%s\">connecter</a> pour éditer cette traduction."
+
+#: bootstrap/helper-functions.php:57
+msgid "References:"
+msgstr "Références:"
+
+#: bootstrap/index.php:2
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: bootstrap/install.php:2 bootstrap/install.php:3 bootstrap/install.php:103
+#: bootstrap/install1.php:2 bootstrap/install1.php:4 bootstrap/install2.php:2
+#: bootstrap/install2.php:4
+msgid "Install"
+msgstr "Installation"
+
+#: bootstrap/install.php:46 bootstrap/install1.php:18 bootstrap/install2.php:18
+#, php-format
+msgid "Installation Process (phase %d of %d)"
+msgstr "Installation (Étape %d sur %d)"
+
+#: bootstrap/install.php:50
+msgid "Database Configuration"
+msgstr "Configuration de la base de données"
+
+#: bootstrap/install.php:52
+msgid "Database Name"
+msgstr "Nom de la base de données"
+
+#: bootstrap/install.php:54 bootstrap/login.php:10
+#: bootstrap/project-permissions.php:60
+msgid "Username"
+msgstr "Identifiant"
+
+#: bootstrap/install.php:56 bootstrap/login.php:11 bootstrap/users_edit.php:36
+#: bootstrap/users_edit.php:40
+msgid "Password"
+msgstr "Mot de passe"
+
+#: bootstrap/install.php:58
+msgid "Server Host"
+msgstr "Serveur hôte"
+
+#: bootstrap/install.php:60
+msgid "Default Character Set"
+msgstr "Set de caractères par défaut"
+
+#: bootstrap/install.php:62
+msgid "Default Collation"
+msgstr ""
+
+#: bootstrap/install.php:64
+msgid "GlotPress Table Prefix"
+msgstr ""
+
+#: bootstrap/install.php:68
+msgid "Authentication Unique Keys"
+msgstr ""
+
+#: bootstrap/install.php:78
+msgid ""
+"You can generate these using the <a href=\"https://api.wordpress.org/secret-"
+"key/1.1/\" target=\"_blank\">WordPress.org secret-key service</a> page"
+msgstr ""
+
+#: bootstrap/install.php:83
+msgid "Enable WordPress User Base Integration"
+msgstr ""
+
+#: bootstrap/install.php:92
+msgid "Other Options"
+msgstr ""
+
+#: bootstrap/install.php:94
+msgid "GlotPress Language"
+msgstr ""
+
+#: bootstrap/install.php:96
+msgid ""
+"A corresponding MO file for the chosen language must be installed to "
+"<i>languages/</i>. Leave blank for English."
+msgstr ""
+
+#: bootstrap/install1.php:4 bootstrap/install2.php:4
+msgid "Upgrade"
+msgstr ""
+
+#: bootstrap/install1.php:22
+msgid "Configure Administrator Options"
+msgstr ""
+
+#: bootstrap/install1.php:27
+msgid ""
+"Select the WordPress user that will have administrator's rights in GlotPress"
+msgstr ""
+
+#: bootstrap/install1.php:29
+msgid "Admin Username"
+msgstr ""
+
+#: bootstrap/install1.php:31 bootstrap/users.php:37 bootstrap/users_edit.php:26
+#: bootstrap/users_edit.php:30
+msgid "Display Name"
+msgstr ""
+
+#: bootstrap/install1.php:33 bootstrap/users_edit.php:31
+msgid "The name that will be used for display on the website"
+msgstr ""
+
+#: bootstrap/install1.php:34
+msgid "Admin Password"
+msgstr ""
+
+#: bootstrap/install1.php:36 bootstrap/users_edit.php:45
+#: bootstrap/users_edit.php:49
+msgid "Confirm Password"
+msgstr ""
+
+#: bootstrap/install1.php:38 bootstrap/users_edit.php:57
+#: bootstrap/users_edit.php:61
+msgid "Email Address"
+msgstr ""
+
+#: bootstrap/install1.php:40
+msgid "The default username is \"admin\", with a password of \"a\"."
+msgstr ""
+
+#: bootstrap/install1.php:48
+msgid "Finish"
+msgstr ""
+
+#: bootstrap/install2.php:20
+msgid "Product installed successfully"
+msgstr ""
+
+#: bootstrap/install2.php:22
+msgid "You can access your "
+msgstr ""
+
+#: bootstrap/install2.php:24
+msgid "Or you can <a href=\""
+msgstr ""
+
+#: bootstrap/login.php:2 bootstrap/login.php:3 bootstrap/login.php:12
+#: bootstrap/users.php:36
+msgid "Login"
+msgstr ""
+
+#: bootstrap/login.php:14
+msgid "register"
+msgstr ""
+
+#: bootstrap/original-row.php:4 bootstrap/translation-row.php:47
+#, php-format
+msgid "Context: %s"
+msgstr ""
+
+#: bootstrap/originals.php:2 bootstrap/originals.php:5
+msgid "Originals"
+msgstr ""
+
+#: bootstrap/originals.php:18 bootstrap/project-permissions.php:9
+msgid "<i class=\"icon-chevron-left icon-white\"></i> Back"
+msgstr ""
+
+#: bootstrap/originals.php:19
+msgid "Original Strings"
+msgstr ""
+
+#: bootstrap/originals.php:25
+msgid "Context"
+msgstr ""
+
+#: bootstrap/originals.php:26
+msgid "Original Text"
+msgstr ""
+
+#: bootstrap/originals.php:27
+msgid "Comment"
+msgstr ""
+
+#: bootstrap/originals.php:38
+msgid "No originals were found!"
+msgstr ""
+
+#: bootstrap/project-edit.php:2
+msgid "Edit Project"
+msgstr ""
+
+#: bootstrap/project-edit.php:9 bootstrap/project-import.php:3
+msgid "<i class=\"icon-chevron-left icon-white\"></i> Cancel"
+msgstr ""
+
+#: bootstrap/project-edit.php:10
+msgid "Edit project"
+msgstr ""
+
+#: bootstrap/project-edit.php:16 bootstrap/project.php:37
+#: bootstrap/settings.php:31 bootstrap/translation-set-edit.php:14
+#: bootstrap/users.php:23 bootstrap/users_edit.php:76
+msgid "Save"
+msgstr ""
+
+#: bootstrap/project-edit.php:17 bootstrap/project-mass-create-sets.php:14
+#: bootstrap/translation-row.php:208 bootstrap/translation-set-new.php:9
+#: bootstrap/translation-set-new.php:10
+msgid "Cancel"
+msgstr ""
+
+#: bootstrap/project-form.php:2 bootstrap/translation-set-form.php:9
+#: bootstrap/translation-set-form.php:11
+msgid "Name"
+msgstr ""
+
+#: bootstrap/project-form.php:9 bootstrap/translation-set-form.php:15
+#: bootstrap/translation-set-form.php:17
+msgid "Slug"
+msgstr ""
+
+#: bootstrap/project-form.php:12
+msgid "If you leave the slug empty, it will be derived from the name."
+msgstr ""
+
+#: bootstrap/project-form.php:16 bootstrap/project.php:15
+msgid "Description"
+msgstr ""
+
+#: bootstrap/project-form.php:19
+msgid "can include HTML"
+msgstr ""
+
+#: bootstrap/project-form.php:23 bootstrap/project.php:34
+msgid "Source file URL"
+msgstr ""
+
+#: bootstrap/project-form.php:26 bootstrap/project.php:36
+msgid ""
+"URL to a source file in the project. You can use <code>%file%</code> and "
+"<code>%line%</code>. Ex. <code>http://trac.example.org/browser/%file%#L%line"
+"%</code>"
+msgstr ""
+
+#: bootstrap/project-form.php:30
+msgid "Parent Project"
+msgstr ""
+
+#: bootstrap/project-form.php:38
+msgid "Active"
+msgstr ""
+
+#: bootstrap/project-import.php:4
+#, php-format
+msgid "Import Originals into %s"
+msgstr ""
+
+#: bootstrap/project-import.php:4
+#, php-format
+msgid "Import Translations for %s"
+msgstr ""
+
+#: bootstrap/project-import.php:8
+msgid "Import File:"
+msgstr ""
+
+#: bootstrap/project-import.php:14
+msgid "Format:"
+msgstr ""
+
+#: bootstrap/project-import.php:21 bootstrap/tools-elgg-import.php:52
+msgid "Import"
+msgstr ""
+
+#: bootstrap/project-mass-create-sets.php:2
+#, php-format
+msgid "Mass-create Translation Sets &lt; %s &lt; GlotPress"
+msgstr ""
+
+#: bootstrap/project-mass-create-sets.php:7
+msgid "Loading translation sets to create&hellip;"
+msgstr ""
+
+#: bootstrap/project-mass-create-sets.php:15 bootstrap/project.php:26
+msgid "Mass-create Translation Sets"
+msgstr ""
+
+#: bootstrap/project-mass-create-sets.php:18
+msgid ""
+"Here you can mass-create translation sets in this project.\n"
+"The list of translation sets will be mirrored with the sets of a project you "
+"choose.\n"
+"Usually this is one of the parent projects."
+msgstr ""
+
+#: bootstrap/project-mass-create-sets.php:23
+msgid "Project to take translation sets from:"
+msgstr ""
+
+#: bootstrap/project-mass-create-sets.php:31
+msgid "Create Translation Sets"
+msgstr ""
+
+#: bootstrap/project-new.php:2 bootstrap/project-new.php:13
+msgid "Create New Project"
+msgstr ""
+
+#: bootstrap/project-new.php:3
+msgid "New Project"
+msgstr ""
+
+#: bootstrap/project-new.php:9 bootstrap/projects.php:10
+msgid "Overview"
+msgstr ""
+
+#: bootstrap/project-new.php:10 bootstrap/projects.php:11
+msgid "Stats"
+msgstr ""
+
+#: bootstrap/project-new.php:11 bootstrap/projects.php:12
+msgid "Create a New Project"
+msgstr ""
+
+#: bootstrap/project-new.php:18 bootstrap/translation-set-new.php:23
+msgid "Create"
+msgstr ""
+
+#: bootstrap/project-permissions.php:2 bootstrap/project-permissions.php:7
+#: bootstrap/project.php:23
+msgid "Permissions"
+msgstr ""
+
+#: bootstrap/project-permissions.php:10
+msgid "Validators"
+msgstr ""
+
+#: bootstrap/project-permissions.php:17
+msgid "Validators for this project"
+msgstr ""
+
+#: bootstrap/project-permissions.php:22 bootstrap/project-permissions.php:38
+msgid "user"
+msgstr ""
+
+#: bootstrap/project-permissions.php:28
+msgid "Remove"
+msgstr ""
+
+#: bootstrap/project-permissions.php:34
+msgid "Validators for parent projects"
+msgstr ""
+
+#: bootstrap/project-permissions.php:51
+msgid "No validators defined for this project."
+msgstr ""
+
+#: bootstrap/project-permissions.php:54
+msgid "Add a validator for this project"
+msgstr ""
+
+#: bootstrap/project-permissions.php:58 bootstrap/translation-row.php:160
+msgid "Username:"
+msgstr ""
+
+#: bootstrap/project-permissions.php:64
+msgid "Locale:"
+msgstr ""
+
+#: bootstrap/project-permissions.php:70
+msgid "Translation set slug:"
+msgstr ""
+
+#: bootstrap/project-permissions.php:77
+msgid "Add"
+msgstr ""
+
+#: bootstrap/project.php:20
+msgid "Project actions"
+msgstr ""
+
+#: bootstrap/project.php:22
+msgid "View/Import Originals"
+msgstr ""
+
+#: bootstrap/project.php:24
+msgid "New Sub-Project"
+msgstr ""
+
+#: bootstrap/project.php:25 bootstrap/translation-set-new.php:3
+msgid "New Translation Set"
+msgstr ""
+
+#: bootstrap/project.php:30
+msgid "Personal project options"
+msgstr ""
+
+#: bootstrap/project.php:52
+msgid "Sub-projects"
+msgstr ""
+
+#: bootstrap/projects-by-translation.php:15
+#, php-format
+msgid "By Slug '%s'"
+msgstr ""
+
+#: bootstrap/projects-by-translation.php:23
+#, php-format
+msgid "and slug '%s'"
+msgstr ""
+
+#: bootstrap/projects.php:15
+msgid "No projects were found!"
+msgstr ""
+
+#: bootstrap/projects.php:19
+msgid "Project title"
+msgstr ""
+
+#: bootstrap/projects.php:19 bootstrap/users.php:46
+msgid "Actions"
+msgstr ""
+
+#: bootstrap/redirect.php:1
+#, php-format
+msgid "Redirecting to: %s..."
+msgstr ""
+
+#: bootstrap/settings.php:6
+msgid "Site Settings"
+msgstr ""
+
+#: bootstrap/settings.php:9
+msgid "Import/Export"
+msgstr ""
+
+#: bootstrap/settings.php:13
+msgid "Default Format"
+msgstr ""
+
+#: bootstrap/settings.php:19
+msgid "Project Management"
+msgstr ""
+
+#: bootstrap/settings.php:24
+msgid "Recursively create translation sets in subprojects by default"
+msgstr ""
+
+#: bootstrap/settings.php:26
+msgid ""
+"You can still change this option before every individual translation set "
+"creation"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:3
+msgid "Elgg Export"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:10 bootstrap/tools-elgg-import.php:8
+msgid "GlotPress Tools"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:18
+msgid "Elgg Package Export"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:20 bootstrap/tools-elgg-import.php:14
+msgid ""
+"Import all language data for an Elgg installation. The ZIP file should "
+"contain a folder name elgg-&lt;version&gt; and the whole Elgg installation "
+"or just the language data below it.\n"
+"\t\t\tThe mod folders should include the manifest.xml file, used to get data "
+"about each plugin. The core plugins are imported as subprojects into an Elgg "
+"v&lt;version&gt; project, while all other\n"
+"\t\t\tplugins are imported into a top level Third Party Elgg Plugins "
+"project. The en locale is used for originals, any other locale is imported "
+"as translations."
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:24
+msgid "Core &amp; Bundled &darr;"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:25
+msgid "Extra Plugins &darr;"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:26
+msgid "Locales &darr;"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:77
+msgid "Create empty language files"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:95
+msgid "Also export original English texts"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:100
+msgid "Type the name for the file to download"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:102
+msgid ""
+"You can leave this blank and the file will be called <i>elgg-languages.zip</"
+"i>."
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:116 bootstrap/translations.php:208
+msgid "Export"
+msgstr ""
+
+#: bootstrap/tools-elgg-export.php:120
+msgid "There are no Elgg projects to export from"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:2
+msgid "Elgg Import"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:12
+msgid "Elgg Package Import"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:18
+msgid "Project to import Elgg cores into"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:22
+msgid "Project to import third party plugins into"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:28
+msgid "Select the Elgg install zip file"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:30
+msgid ""
+"You can get this file from <a href=\"http://www.elgg.org/download.php\" "
+"target=\"_blank\">the Elgg web site</a>. Make sure the file is in ZIP format."
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:43
+msgid "Also import original English texts"
+msgstr ""
+
+#: bootstrap/tools-elgg-import.php:47
+msgid "Do not overwrite exisiting translation sets"
+msgstr ""
+
+#: bootstrap/tools.php:6
+msgid "External Tools"
+msgstr ""
+
+#: bootstrap/tools.php:8
+msgid "Sorry! There are no tools available to you."
+msgstr ""
+
+#: bootstrap/translation-import.php:2
+msgid "Import Translations"
+msgstr ""
+
+#: bootstrap/translation-row.php:52
+msgid "Double-click to add"
+msgstr ""
+
+#: bootstrap/translation-row.php:52
+#, php-format
+msgid "You <a href=\"%s\">have to login</a> to add a translation."
+msgstr ""
+
+#: bootstrap/translation-row.php:73
+msgid "Details"
+msgstr ""
+
+#: bootstrap/translation-row.php:84 bootstrap/translation-row.php:94
+#, php-format
+msgid "Singular: %s"
+msgstr ""
+
+#: bootstrap/translation-row.php:87 bootstrap/translation-row.php:96
+#, php-format
+msgid "Plural: %s"
+msgstr ""
+
+#: bootstrap/translation-row.php:100
+#, php-format
+msgid "This plural form is used for numbers like: %s"
+msgstr ""
+
+#: bootstrap/translation-row.php:110
+msgid "Meta"
+msgstr ""
+
+#: bootstrap/translation-row.php:112 bootstrap/translations.php:112
+msgid "Status:"
+msgstr ""
+
+#: bootstrap/translation-row.php:128
+msgid "Priority:"
+msgstr ""
+
+#: bootstrap/translation-row.php:135
+msgid "Context:"
+msgstr ""
+
+#: bootstrap/translation-row.php:141
+msgid "Comment:"
+msgstr ""
+
+#: bootstrap/translation-row.php:147
+msgid "Date added:"
+msgstr ""
+
+#: bootstrap/translation-row.php:152
+msgid "In:"
+msgstr ""
+
+#: bootstrap/translation-row.php:157
+msgid "Translated by:"
+msgstr ""
+
+#: bootstrap/translation-row.php:165
+msgid "Translated into:"
+msgstr ""
+
+#: bootstrap/translation-row.php:168
+msgid "Code:"
+msgstr ""
+
+#: bootstrap/translation-row.php:175
+msgid "Priority of the original:"
+msgstr ""
+
+#: bootstrap/translation-row.php:205
+msgid "Add translation &rarr;"
+msgstr ""
+
+#: bootstrap/translation-row.php:205
+msgid "Suggest new translation &rarr;"
+msgstr ""
+
+#: bootstrap/translation-set-edit.php:2 bootstrap/translation-set-edit.php:10
+msgid "Edit Translation Set"
+msgstr ""
+
+#: bootstrap/translation-set-form.php:2
+msgid "Locale"
+msgstr ""
+
+#: bootstrap/translation-set-form.php:5
+msgid "Use as name"
+msgstr ""
+
+#: bootstrap/translation-set-form.php:21
+msgid "Project"
+msgstr ""
+
+#: bootstrap/translation-set-new.php:2 bootstrap/translation-set-new.php:11
+msgid "Create New Translation Set"
+msgstr ""
+
+#: bootstrap/translation-set-new.php:18
+msgid "Recursively create sets in subprojects"
+msgstr ""
+
+#: bootstrap/translation-sets.php:6
+msgid "Language"
+msgstr ""
+
+#: bootstrap/translation-sets.php:7
+msgid "Progress"
+msgstr ""
+
+#: bootstrap/translation-sets.php:8 bootstrap/translations.php:89
+msgid "All"
+msgstr ""
+
+#: bootstrap/translation-sets.php:9
+msgid "Translated (of total)"
+msgstr ""
+
+#: bootstrap/translation-sets.php:10 bootstrap/translations.php:90
+msgid "Untranslated"
+msgstr ""
+
+#: bootstrap/translation-sets.php:11 bootstrap/translations.php:94
+msgid "Waiting"
+msgstr ""
+
+#: bootstrap/translation-sets.php:13
+msgid "Own (of translated)"
+msgstr ""
+
+#: bootstrap/translation-sets.php:95
+msgid "There are no translations of this project."
+msgstr ""
+
+#: bootstrap/translations.php:2
+msgid "Translation Entries"
+msgstr ""
+
+#: bootstrap/translations.php:34
+#, php-format
+msgid "Translations by %s"
+msgstr ""
+
+#: bootstrap/translations.php:76
+msgid "Apply"
+msgstr ""
+
+#: bootstrap/translations.php:85
+msgid "Filter &darr;"
+msgstr ""
+
+#: bootstrap/translations.php:86
+msgid "Sort &darr;"
+msgstr ""
+
+#: bootstrap/translations.php:91
+msgid "random"
+msgstr ""
+
+#: bootstrap/translations.php:95
+msgid "Fuzzy"
+msgstr ""
+
+#: bootstrap/translations.php:96
+msgid "Warnings"
+msgstr ""
+
+#: bootstrap/translations.php:105
+msgid "Term:"
+msgstr ""
+
+#: bootstrap/translations.php:106
+msgid "User:"
+msgstr ""
+
+#: bootstrap/translations.php:117
+msgid "Current/waiting/fuzzy + untranslated (All)"
+msgstr ""
+
+#: bootstrap/translations.php:118
+msgid "Current only"
+msgstr ""
+
+#: bootstrap/translations.php:119
+msgid "Approved, but obsoleted by another string"
+msgstr ""
+
+#: bootstrap/translations.php:120
+msgid "Waiting approval"
+msgstr ""
+
+#: bootstrap/translations.php:121
+msgid "Rejected"
+msgstr ""
+
+#: bootstrap/translations.php:122
+msgid "Without current translation"
+msgstr ""
+
+#: bootstrap/translations.php:123
+msgid "Any"
+msgstr ""
+
+#: bootstrap/translations.php:128
+msgid "With comment"
+msgstr ""
+
+#: bootstrap/translations.php:129
+msgid "With context"
+msgstr ""
+
+#: bootstrap/translations.php:133
+msgid "Filter"
+msgstr ""
+
+#: bootstrap/translations.php:136
+msgid "By:"
+msgstr ""
+
+#: bootstrap/translations.php:140
+msgid "Date added (original)"
+msgstr ""
+
+#: bootstrap/translations.php:141
+msgid "Date added (translation)"
+msgstr ""
+
+#: bootstrap/translations.php:142 bootstrap/translations.php:170
+msgid "Original string"
+msgstr ""
+
+#: bootstrap/translations.php:143 bootstrap/translations.php:171
+msgid "Translation"
+msgstr ""
+
+#: bootstrap/translations.php:144
+msgid "Priority"
+msgstr ""
+
+#: bootstrap/translations.php:145
+msgid "Filename in source"
+msgstr ""
+
+#: bootstrap/translations.php:146
+msgid "Random"
+msgstr ""
+
+#: bootstrap/translations.php:150
+msgid "How:"
+msgstr ""
+
+#: bootstrap/translations.php:154
+msgid "Ascending"
+msgstr ""
+
+#: bootstrap/translations.php:155
+msgid "Descending"
+msgstr ""
+
+#: bootstrap/translations.php:159
+msgid "Sort"
+msgstr ""
+
+#: bootstrap/translations.php:169
+msgid "Prio"
+msgstr ""
+
+#: bootstrap/translations.php:183
+msgid "No translation entries were found!"
+msgstr ""
+
+#: bootstrap/translations.php:190
+msgid "Legend:"
+msgstr ""
+
+#: bootstrap/translations.php:199
+msgid "with warnings"
+msgstr ""
+
+#: bootstrap/translations.php:205
+msgid "Import translations"
+msgstr ""
+
+#: bootstrap/translations.php:209
+msgid "all current"
+msgstr ""
+
+#: bootstrap/translations.php:209
+msgid "only matching the filter"
+msgstr ""
+
+#: bootstrap/translations.php:212
+#, php-format
+msgid "%1$s %2$s as %3$s"
+msgstr ""
+
+#: bootstrap/users.php:8
+msgid "User Management"
+msgstr ""
+
+#: bootstrap/users.php:13
+msgid "Options"
+msgstr ""
+
+#: bootstrap/users.php:19
+msgid "Make home page visible to everyone"
+msgstr ""
+
+#: bootstrap/users.php:22
+msgid "Enable User Self-Registration"
+msgstr ""
+
+#: bootstrap/users.php:29
+msgid "User List"
+msgstr ""
+
+#: bootstrap/users.php:30
+msgid "Create a New User"
+msgstr ""
+
+#: bootstrap/users.php:35
+msgid "ID"
+msgstr ""
+
+#: bootstrap/users.php:39
+msgid "Email"
+msgstr ""
+
+#: bootstrap/users.php:40
+msgid "Nice Name"
+msgstr ""
+
+#: bootstrap/users.php:42
+msgid "URL"
+msgstr ""
+
+#: bootstrap/users.php:45
+msgid "Status"
+msgstr ""
+
+#: bootstrap/users.php:86
+msgid "None"
+msgstr ""
+
+#: bootstrap/users.php:95
+msgid "Edit"
+msgstr ""
+
+#: bootstrap/users.php:96
+msgid "Revoke Admin"
+msgstr ""
+
+#: bootstrap/users.php:96
+msgid "Make Admin"
+msgstr ""
+
+#: bootstrap/users.php:97
+msgid "Delete"
+msgstr ""
+
+#: bootstrap/users.php:105
+msgid "No users were found!"
+msgstr ""
+
+#: bootstrap/users_edit.php:3
+msgid "Edit User"
+msgstr ""
+
+#: bootstrap/users_edit.php:3
+msgid "Create User"
+msgstr ""
+
+#: bootstrap/users_edit.php:6
+#, php-format
+msgid "User #%d"
+msgstr ""
+
+#: bootstrap/users_edit.php:6
+msgid "New User"
+msgstr ""
+
+#: bootstrap/users_edit.php:9 bootstrap/users_edit.php:78
+msgid "go back"
+msgstr ""
+
+#: bootstrap/users_edit.php:11
+msgid "Basic Information"
+msgstr ""
+
+#: bootstrap/users_edit.php:17 bootstrap/users_edit.php:21
+msgid "Login Username"
+msgstr ""
+
+#: bootstrap/users_edit.php:51
+msgid "Leave both password fields blank to leave password unchanged"
+msgstr ""
+
+#: bootstrap/users_edit.php:66 bootstrap/users_edit.php:70
+msgid "Website URL (if any)"
+msgstr ""

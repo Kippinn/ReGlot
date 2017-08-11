@@ -23,9 +23,11 @@ wp_enqueue_script('common');
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo gp_url('/'); ?>gp-templates/bootstrap/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="<?php echo gp_url('/'); ?>gp-templates/bootstrap/ico/apple-touch-icon-57-precomposed.png">
 
-        <link rel="stylesheet" href="<?php echo gp_url('/'); ?>gp-templates/bootstrap/css/bootstrap.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="<?php echo gp_url('/'); ?>gp-templates/bootstrap/css/bootstrap-responsive.css" type="text/css" media="all" />
-        <script type="text/javascript" src="<?php echo gp_url('/'); ?>gp-templates/bootstrap/js/bootstrap.js"></script>
+        <!-- <link rel="stylesheet" href="<?php echo gp_url('/'); ?>gp-templates/bootstrap/bootstrap3/css/bootstrap.min.css" type="text/css" media="all" /> -->
+        <link rel="stylesheet" href="<?php echo gp_url('/'); ?>gp-templates/bootstrap/bootstrap3/css/font-awesome.min.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.css" type="text/css" media="all" />
+         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="<?php echo gp_url('/'); ?>gp-templates/bootstrap/bootstrap3/js/bootstrap.js"></script>
 
         <style type="text/css">
 
@@ -34,8 +36,7 @@ wp_enqueue_script('common');
 
             html,
             body {
-                height: 100%;
-                /* The html and body elements cannot have any padding or margin. */
+                padding-top: 40px;
             }
 
             /* Wrapper for page content to push down footer */
@@ -238,49 +239,49 @@ wp_enqueue_script('common');
                 float: right;
                 margin-right: 5px;
             }
+            .pagination>li:first-child>a, .pagination>li:first-child>span {
+                margin-left: 0;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+            }
+            #legend{margin-top:1em;}#legend div{float:left;line-height:1.5em;margin-right:0.5em;}
+            #legend .box{border:1px solid #CCCCCC;height:1.5em;padding:0;width:1.5em;}
+            #legend .status-fuzzy{background-color:#FFCC66;}
+            #legend .status-current{background-color:#E9FFD8;}
+            #legend .status-old{background-color:#FEE4F8;}
+            #legend .status-waiting{background-color:#FFFFC2;}
+            #legend .status-rejected{background-color:#FF8E8E;}
+            #legend div.has-warnings{border-left:2px solid red;}
+            .pagination-right {
+                float: right;
+                margin: 0;
+            }
         </style>    
     </head>
     <body class="no-js">
         <div id="wrap">
             <script type="text/javascript">document.body.className = document.body.className.replace('no-js','js');</script>
-            <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-inner">
-                    <div class="container-fluid">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                        </a>
-                        <a class="brand" href="<?php echo gp_url('/'); ?>">ReGlot</a>
-                        <div class="nav-collapse collapse">
-                            <p class="navbar-text pull-right">
-                                <?php
-                                if (GP::$user && GP::$user->logged_in()) {
-                                    ?>
-                                    <?php if (GP::$user && GP::$user->logged_in() && GP::$user->admin()) { ?>
-                                    <a href="<?php echo gp_url_settings() ?>" class="navbar-link"><i class="icon-cog icon-white"></i> <?php _e('Settings'); ?></a> |
-                                    <?php } ?>
-                                    <a href="<?php echo gp_url_user_profile() ?>" class="navbar-link"><i class="icon-edit icon-white"></i> <?php _e('Profile'); ?></a> |
-                                    <a href="<?php echo gp_url_users() ?>" class="navbar-link"><i class="icon-user icon-white"></i> <?php _e('Users'); ?></a> |
-                                    <a href="<?php echo gp_url_logout() ?>" class="navbar-link"><i class="icon-off icon-white"></i> <?php _e('Log out'); ?></a>
-                                        <?php
-                                    } else if (GP::$user) {
-                                        ?>
-                                        <?php if (gp_get_option('user_registration') == 'on') { ?>
-                                            <strong><a href="<?php echo gp_url_register(); ?>" class="navbar-link"><i class="icon-plus-sign icon-white"></i> <?php _e('Register'); ?></a></strong> |
-                                        <?php } ?>
-                                        <strong><a href="<?php echo gp_url_login(); ?>" class="navbar-link"><i class="icon-check icon-white"></i> <?php _e('Log in'); ?></a></strong>
-                                    <?php } ?>
-                            </p>
-                            <ul class="nav">
+                        </button>
+                        <a class="navbar-brand" href="<?php echo gp_url('/'); ?>"><i class="fa fa-globe" aria-hidden="true"></i> Re-Glot</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
                                 <?php
                                 if (gp_get_option('public_home') == 'on') {
                                     ?>
-                                    <li><a href="<?php echo gp_url_project() ?>"><i class="icon-folder-open icon-white"></i> <?php _e('Projects'); ?></a></li>
-                                    <li><a href="<?php echo gp_url_by_translation() ?>"><i class="icon-globe icon-white"></i> <?php _e('Translations'); ?></a></li>
+                                    <li><a href="<?php echo gp_url_project() ?>"><i class="fa fa-folder-open" aria-hidden="true"></i> <?php _e('Projects'); ?></a></li>
+                                    <li><a href="<?php echo gp_url_by_translation() ?>"><i class="fa fa-comment" aria-hidden="true"></i> <?php _e('Translations'); ?></a></li>
                                     <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                            <i class="icon-wrench icon-white"></i> <?php _e('Tools'); ?>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fa fa-wrench" aria-hidden="true"></i> <?php _e('Tools'); ?>
                                             <b class="caret"></b>
                                         </a>
                                         <ul class="dropdown-menu">
@@ -303,11 +304,30 @@ wp_enqueue_script('common');
                                 }
                                 ?>
                             </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <?php
+                                if (GP::$user && GP::$user->logged_in()) {
+                                    ?>
+                                    <?php if (GP::$user && GP::$user->logged_in() && GP::$user->admin()) { ?>
+                                    <li><a href="<?php echo gp_url_settings() ?>" class="navbar-link"><i class="fa fa-cog" aria-hidden="true"></i> <?php _e('Settings'); ?></a></li>
+                                    <?php } ?>
+                                    <li><a href="<?php echo gp_url_user_profile() ?>" class="navbar-link"><i class="fa fa-edit" aria-hidden="true"></i> <?php _e('Profile'); ?></a></li>
+                                    <li><a href="<?php echo gp_url_users() ?>" class="navbar-link"><i class="fa fa-users" aria-hidden="true"></i> <?php _e('Users'); ?></a></li>
+                                    <li><a href="<?php echo gp_url_logout() ?>" class="navbar-link"><i class="fa fa-sign-out" aria-hidden="true"></i> <?php _e('Log out'); ?></a></li>
+                                        <?php
+                                    } else if (GP::$user) {
+                                        ?>
+                                        <?php if (gp_get_option('user_registration') == 'on') { ?>
+                                            <li><a href="<?php echo gp_url_register(); ?>" class="navbar-link"><i class="fa fa-user-plus" aria-hidden="true"></i> <?php _e('Register'); ?></a></li>
+                                        <?php } ?>
+                                        <li><a href="<?php echo gp_url_login(); ?>" class="navbar-link"><i class="fa fa-sign-in" aria-hidden="true"></i> <?php _e('Log in'); ?></a></li>
+                                    <?php } ?>
+                            </ul>
                         </div><!--/.nav-collapse -->
-                    </div>
+
                 </div>
             </div>
-            <div class="container-fluid content">
+            <div class="container content">
                 <?php echo gp_breadcrumb(); ?>
                 <div id="gp-js-message"></div>
                 <?php if (gp_notice('error')): ?>

@@ -1,16 +1,13 @@
 <?php if ($translation_sets): ?>
     <div id="translation-sets" style="width:<?php echo $sub_projects ? 70 : 100; ?>%;">
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#"><?php _e('Translations'); ?></a></li>
-        </ul>
-        <table class="table table-hover translation-sets">
+        <table class="table table-striped table-hover">
             <thead>
                 <tr>
                     <th><?php _e('Language'); ?></th>
-                    <th><?php echo _x('%', 'language translation percent header'); ?></th>
+                    <th><?php _e('Progress'); ?></th>
                     <th><?php _e('All'); ?></th>
-                    <th><?php _e('Untranslated'); ?></th>
                     <th><?php _e('Translated (of total)'); ?></th>
+                    <th><?php _e('Untranslated'); ?></th>
                     <th><?php _e('Waiting'); ?></th>
                     <?php if (GP::$user->logged_in()) { ?>
                         <th><?php _e('Own (of translated)'); ?></th>
@@ -49,7 +46,7 @@
                                 </span>
                             <?php } ?>
                         </td>
-                        <td class="stats percent"><?php echo $set->percent_translated; ?></td>
+                        <td class="stats percent"><div class="progress<?php if($set->current_count < $set->all_count) { ?> progress-striped active<?php } ?>" style="background-color: #868686;"><div class="progress-bar<?php if($set->current_count >= $set->all_count) { ?> progress-bar-info<?php } ?>" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $set->percent_translated; ?>;"> <?php echo $set->percent_translated; ?> </div></div></td>
                         <td class="stats total" title="total">
                             <?php
                             gp_link(gp_url_project($set->path, $row_url_join_base), $set->all_count);

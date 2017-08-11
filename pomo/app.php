@@ -31,7 +31,7 @@ function &load_translations($mo_filename) {
 
 // get the locale from somewhere: subomain, config, GET var, etc.
 // it can be safely empty
-$locale = 'fr';
+$locale = 'bg';
 $translations = array();
 $empty_translations = new Translations();
 
